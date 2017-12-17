@@ -184,6 +184,9 @@
     <Reference Include="UnityEngine.WindModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -221,6 +224,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ball_Script.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Load.cs" />
+    <Compile Include="Assets\Scripts\obstacleScript.cs" />
+    <Compile Include="Assets\Scripts\obstacleScript2.cs" />
     <Compile Include="Assets\Scripts\P1_GoalScored_Script.cs" />
     <Compile Include="Assets\Scripts\P1_Paddle_Script.cs" />
     <Compile Include="Assets\Scripts\P2_GoalScore_Script.cs" />
